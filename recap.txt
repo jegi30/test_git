@@ -25,3 +25,10 @@ git add doc.txt
 git commit -m "Ajout recap.txt"
 git push -u origin main
 
+# pour recuperer un projet github
+# on cree un repertoire vide, on positionne la le BASH GIT dans ce repertoire.
+git clone https://github.com/jegi30/test_git.git
+
+# mettre à jour son repertoire local avec le depot distant
+git pull origin main
+
