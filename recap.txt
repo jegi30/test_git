@@ -1,0 +1,18 @@
+# Creation du depot local
+git init
+
+# Ajout dans le sac des fichiers
+git add *.c
+git add *.h
+
+# on archive le sac dans le depot local
+git commit -m "first commit"
+
+# on renomme la branche principale du depot local en main
+git branch -M main
+
+# on connecte le depot github créé via le nom "origin"
+git remote add origin https://github.com/jegi30/ffff.git
+
+# on archive un etat du logicel
+git push -u origin main
