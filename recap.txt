@@ -12,7 +12,16 @@ git commit -m "first commit"
 git branch -M main
 
 # on connecte le depot github créé via le nom "origin"
-git remote add origin https://github.com/jegi30/ffff.git
+git remote add origin https://github.com/jegi30/test_git.git
 
 # on archive un etat du logicel
 git push -u origin main
+
+# Modification du code existant par un editeur par exemple doc.txt
+# ici on rajoute un fichier recap.txt
+# puis on mets à jour l'ensemble
+git add recap.txt
+git add doc.txt
+git commit -m "Ajout recap.txt"
+git push -u origin main
+
